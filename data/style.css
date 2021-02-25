@@ -1,0 +1,175 @@
+body {
+    padding: 50px;
+}
+
+p, li, table {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: midnightblue;
+}
+
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    color: green;
+    text-align: center;
+    border: dashed darkgreen;
+    border-radius: 10px / 20px;
+    box-shadow: -4px -4px 0.5px lightgray inset;
+    width: 200px;
+    margin: auto;
+}
+
+.amrin {
+    text-align: center;
+    color:aliceblue;
+    background: url("unknown.png") center;
+    padding: 50px;
+    width: 250px;
+    height: 250px;
+    background-position: 65%;
+}
+
+h4 {
+    font-family: 'LoveMatch';
+    font-size: xx-large;
+    text-decoration: underline;
+}
+
+.kingcrimson {
+    color:crimson;
+    text-shadow: 2px 2px 1px black;
+}
+
+#unique {
+    background-color: rgba(50, 66, 62, 0.123);
+    color: #9966ff;
+}
+
+a[title*="c"] {
+    font-size: 11px;
+    color:darkgoldenrod;
+}
+
+@font-face {
+    font-family: 'LoveMatch';
+    src: url('LoveMatch.ttf');
+}
+
+figcaption {
+    margin-left: 150px;
+}
+
+a:hover {
+    font-size: xx-large;
+}
+
+a:active {
+    color:orangered;
+}
+
+a:focus {
+    background-color: lawngreen;
+}
+
+a:visited {
+    color: chocolate;
+}
+
+aside {
+    float: right;
+    margin-top: 300px;
+}
+
+p.tropgrostexte {
+    width: 280px;
+    height: 115px;
+    text-align: justify;
+    border: 1px solid black;
+    overflow: hidden;
+    word-wrap: break-word;
+}
+
+#conteneur {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    justify-content: space-around;
+}
+
+.element {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.element:nth-child(1) {
+    flex: 1;
+    
+}
+
+.element:nth-child(2) {
+    align-self: flex-end;
+    order: 3;
+}
+
+.element:nth-child(3) {
+    order: 2;
+}
+
+.secret {
+    display: none;
+}
+
+.listes {
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.cacher {
+    position: absolute;
+    float: left;
+    z-index: 1;
+    margin-top: 150px;
+    margin-left: -10px;
+}
+
+table {
+    text-align: center;
+    border-collapse: collapse;
+}
+
+caption {
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+td, th {
+    border: 1px solid black;
+    padding: 2px;
+}
+
+nav {
+    border: 3px double rebeccapurple ;
+    width: fit-content;
+    padding-right: 18px;
+    padding-left: -10px;
+}
+
+form {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+fieldset {
+    width: fit-content;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+:required {
+    background-color: bisque;
+}
+
+footer {
+    font-family: 'Comic Sans MS';
+}
